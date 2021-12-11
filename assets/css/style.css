@@ -14,6 +14,7 @@
   body {
       color: var(--secondary-color);
       font-family: Helvetica, Arial, sans-serif;
+      background-color: var(--primary-color);
   }
 
   /* Header / Nav bar styles start */
@@ -84,22 +85,47 @@ footer h2 {
 /* Footer styles end */
 
 /* Hero section start */
-.hero-image {
-    background-image: url("../images/new-hero-image.png");
+.hero {
+    background-image: url('../images/hero-image-current.png');
     background-size: cover;
+    background-position: 80%;
     display: flex;
     justify-content: center;
-    background-position: none;
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-    height: 1600px;
-    width: auto;
+    height: 1300px;
 }
 
-/*.hero-text {
+.hero-info {
+    width: 35%;
+    text-align: center;
+    margin: 3.5%;
+    color: var(--primary-color);
+    font-size: 35px;
+    line-height: 1.2;
+}
 
-}*/
+.hero-info h2 {
+    font-size: 55px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-button button {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.hero-button button:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
 
 /* Hero section end */
 
