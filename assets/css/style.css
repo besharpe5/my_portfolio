@@ -19,7 +19,7 @@
 
   /* Header / Nav bar styles start */
   header {
-      padding: 25px;
+      padding: 30px;
       background-color: var(--secondary-color);
       display: flex;
       justify-content: space-between;
@@ -42,7 +42,7 @@
   header nav ul {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
       list-style: none;
       float: none;
@@ -55,7 +55,7 @@
   header nav ul li a {
       padding: 10px 15px;
       font-weight: lighter;
-      font-size: 1.55vw;
+      font-size: 1.35vw;
       text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
@@ -87,41 +87,45 @@ footer h2 {
 /* Hero section start */
 .hero {
     background-image: url('../images/hero-image-current.png');
+    position: sticky;
     background-size: cover;
     background-position: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     background-attachment: fixed;
-    height: 1300px;
+    height: 575px;
 }
 
 .hero-info {
+    position: sticky;
+    top: 20px;
     width: 35%;
     text-align: center;
-    margin: 3.5%;
+    margin: 25%;
     color: var(--primary-color);
-    font-size: 35px;
+    font-size: 50px;
     line-height: 1.2;
 }
 
-.hero-info h2 {
-    font-size: 55px;
+.hero-info h1 {
+    font-size: 85px;
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.hero-button button {
+.hero-info button {
     color: var(--primary-color);
     background-color: var(--secondary-color);
     border: none;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 10px;
 }
 
-.hero-button button:hover {
+.hero-info button:hover {
     color: var(--secondary-color);
     background-color: var(--primary-color);
 }
@@ -132,12 +136,14 @@ footer h2 {
 /* Section title styles start */
 .section-title {
     font-size: 48px;
-    border-right: 3px solid;
+    border-bottom: 3px solid;
     color: var(--secondary-color);
     padding-bottom: 20px;
     text-align: left;
     margin: 0 auto 35px auto;
-    width: 50%;
+    width: 10%;
 }
+
+
 
 /* Section title styles start */
