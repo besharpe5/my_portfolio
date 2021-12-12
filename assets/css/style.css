@@ -108,6 +108,7 @@ footer h2 {
     color: var(--primary-color);
     font-size: 35px;
     line-height: 1.2;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-info h1 {
@@ -138,6 +139,7 @@ footer h2 {
     font-size: 48px;
     border-bottom: 3px solid;
     color: var(--secondary-color);
+    padding-top: 30px;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -145,7 +147,7 @@ footer h2 {
 }
 /* Section title styles end */
 
-/* About Me section start*/
+/* About Me section start */
 .about-me-section p {
     line-height: 1.7;
     color: var(--secondary-color);
@@ -156,3 +158,60 @@ footer h2 {
 }
 /* About Me section end */
 
+/* My Work section start */
+.flex-row {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.application {
+    margin: 20px;
+    flex-direction: row;
+    flex: 1;
+}
+
+.grow {
+ flex: 1;
+}
+
+.application img {
+    max-width: 100%;
+    height: auto;
+}
+
+.application h3 {
+   z-index: auto;
+}
+
+
+
+
+.contact-me-section {
+    background: var(--tertiary-color);
+    height: auto;
+}
+
+.contact-me-section h2 {
+    color: var(--primary-color);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 25px;
+    align-items: flex-end;
+}
