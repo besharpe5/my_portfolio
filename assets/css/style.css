@@ -106,7 +106,7 @@ footer h2 {
     text-align: center;
     margin: 25%;
     color: var(--primary-color);
-    font-size: 50px;
+    font-size: 35px;
     line-height: 1.2;
 }
 
@@ -139,11 +139,20 @@ footer h2 {
     border-bottom: 3px solid;
     color: var(--secondary-color);
     padding-bottom: 20px;
-    text-align: left;
+    text-align: center;
     margin: 0 auto 35px auto;
-    width: 10%;
+    width: 50%;
 }
+/* Section title styles end */
 
+/* About Me section start*/
+.about-me-section p {
+    line-height: 1.7;
+    color: var(--secondary-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+/* About Me section end */
 
-
-/* Section title styles start */
