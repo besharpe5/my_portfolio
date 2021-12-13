@@ -11,4 +11,4 @@ I built this website in order to display my deployed portfolio of work samples.
 https://besharpe5.github.io/my_portfolio/
 
 ## Screenshot
-![Screenshot-of-my-portfolio] (assets/images/Screen Shot 2021-12-12 at 7.25.22 PM.png?raw=true)
+!(https://user-images.githubusercontent.com/92644802/145736293-da9552fb-cbc7-4986-aab8-2730e9ae952d.png)
