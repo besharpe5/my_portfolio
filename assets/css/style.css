@@ -89,7 +89,7 @@ footer h2 {
     background-image: url('../images/hero-image-current.png');
     position: sticky;
     background-size: cover;
-    background-position: 80%;
+    background-position: 10%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -130,8 +130,6 @@ footer h2 {
     color: var(--secondary-color);
     background-color: var(--primary-color);
 }
-
-
 /* Hero section end */
 
 /* Section title styles start */
@@ -178,8 +176,17 @@ footer h2 {
     flex: 1;
 }
 
-.grow {
+.grow p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.grow img {
  flex: 1;
+}
+
+.grow img:hover {
+   transform: scale(1.1);
 }
 
 .application img {
@@ -187,13 +194,14 @@ footer h2 {
     height: auto;
 }
 
-.application h3 {
-   z-index: auto;
+.application-title {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
 }
+/* My work section end */
 
-
-
-
+/* Contact me section start */
 .contact-me-section {
     background: var(--tertiary-color);
     height: auto;
@@ -214,4 +222,88 @@ footer h2 {
     color: var(--primary-color);
     font-size: 25px;
     align-items: flex-end;
+}
+/* contact me section start */
+
+/* Media query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-info {
+        width: 100%;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .container {
+        flex: 0 70%;
+    }
+}
+
+/* Media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+
+    .hero {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* Media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+    .hero-info button {
+        width: 100%;
+    }
+
+    .section-title {
+        width: 100%;
+    }
+
+    .about-me-section p {
+        width: 100%;
+    }
+
+    .container {
+        flex: 0 100%;
+    }
+
+    .contact-me-section {
+        text-align: center;
+    }
+
+    .contact-me-section > * {
+        width: 100%;
+    }
+
+    .hero {
+        flex: 0 100%;
+    }
+
+    .application {
+        justify-content: center;
+    }
 }
